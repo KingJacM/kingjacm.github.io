@@ -16,7 +16,9 @@ $(function() {
 	c.load("<div class='code writecode'>&nbsp;<span class='bef_key'>-webkit-transition</span>: <span class='bef_value'> all 1s</span>;</div>");
 	c.load("<div class='code writecode'>}</div></p>");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
-	
+	c.load("<div class='bef_comment writecode'>&nbsp;*看起来似乎没什么变化，不要着急，接下来你就会看到</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*你是不是厌倦了白底黑字</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*那么让我们来做一些改变</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
 	c.load("<p><div class='code writecode'><span class='bef_selector'>html</span> {</div>");
 	c.load("<div class='code writecode'>&nbsp;<span class='bef_key'>background</span>: <span class='bef_value'>rgb(63, 82, 99)</span>;</div>");
