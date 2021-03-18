@@ -1,27 +1,6 @@
 $(function() {
 	var c = new Coder("style-text");
-	c.load("<p><div class='bef_comment writecode'>/**</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*hi,我的名字叫陈辰，是上海一家互联网创业公司的软件工程师</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*我的主要工作是解决用户的交互体验</div>",2000);
-	c.load("<div class='bef_comment writecode'>&nbsp;*让我们来点实际的，看看我能做些什么</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
-	c.load("<p><div class='bef_comment writecode'>/**</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*让我们开始吧,我们先来让所有的变化都以动画的效果来显示</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
-	c.load("<p><div class='code writecode'><span class='bef_selector'>*</span> {</div>");
-	c.load("<div class='code writecode'>&nbsp;<span class='bef_key'>-webkit-transition</span>: <span class='bef_value'> all 1s</span>;</div>");
-	c.load("<div class='code writecode'>}</div></p>");
-	c.load("<p><div class='bef_comment writecode'>/**</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*看起来似乎没什么变化，不要着急，接下来你就会看到</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*你是不是厌倦了白底黑字</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*那么让我们来做一些改变</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
-	c.load("<p><div class='code writecode'><span class='bef_selector'>html</span> {</div>");
-	c.load("<div class='code writecode'>&nbsp;<span class='bef_key'>background</span>: <span class='bef_value'>rgb(63, 82, 99)</span>;</div>");
-	c.setClass("html", [{
-		"name": "background",
-		"val": "rgb(63, 82, 99)"
+
 	}]);
 	c.load("<div class='code writecode'>}</div></p>");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
